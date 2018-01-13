@@ -6,3 +6,9 @@ cd Kali-linux-Android-autohack
 chmod +x Handyhackenscript.sh
 ````
 Enter ip and port in the script
+
+# additional packages
+install adb
+````
+sudo apt-get install adb
+````
